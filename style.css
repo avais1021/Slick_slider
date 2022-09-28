@@ -55,7 +55,7 @@ background-color: yellow;
 /* slick css ----------  */
 
 .slick-next:before, .slick-prev:before {
-    color: #e80000 !important;
+    color: white !important;
 }
 .slick-next, .slick-prev {
     top: 16% !important;
@@ -71,5 +71,5 @@ background-color: yellow;
 }
 
 .slick-next:before, .slick-prev:before {
-    font-size: 30px !important;
+    font-size: 37px !important;
 }
