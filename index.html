@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>slick_slider</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+<div class="container">
+    <div class="sample1">
+        <div class="card one">
+            <h3>1</h3>
+        </div>
+        <div class="card two">
+            <h3>2</h3>
+        </div>
+        <div class="card three">
+            <h3>3</h3>
+        </div>
+        <div class="card four">
+            <h3>4</h3>
+        </div>
+        <div class="card five">
+            <h3>5</h3>
+        </div>
+        <div class="card six">
+            <h3>6</h3>
+        </div>
+    </div>
+</div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+        integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+       $('.sample1').slick({
+  dots: false,
+  infinite: false,
+  speed: 300,
+  slidesToShow: 4.6,
+  slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 1170,
+      settings: {
+        slidesToShow: 3.6
+      }
+    },
+    {
+      breakpoint: 950,
+      settings: {
+        slidesToShow: 2.6
+      }
+    },
+    {
+      breakpoint: 767,
+      settings: {
+        slidesToShow: 1.4
+      }
+    }
+  ]
+});
+
+
+
+    </script>
+</body>
+
+</html>
